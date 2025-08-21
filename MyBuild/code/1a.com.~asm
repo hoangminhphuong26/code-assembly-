@@ -1,0 +1,22 @@
+
+; You may customize this and other start-up templates;
+; The location of this template is c:\emu8086\inc\0_com_template.txt
+
+org 100h
+
+; add your code here
+MOV AH, 80 ; AH ? 80 (AX = ?)
+MOV AL, 86 ; AL ? 86 (AX = ?)
+MOV BX, AX ; BX ? AX (BH = ?, BL = ?)
+MOV DH, BL ; DH ? BL (DH = ?, DX = ?)
+MOV DL, BH ; DL ? BH (DL = ?, DX = ?)
+MOV SI, CS ; SI ? CS (SI = ?)
+
+
+ret
+
+
+
+
+
+
